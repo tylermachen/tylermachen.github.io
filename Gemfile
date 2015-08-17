@@ -8,3 +8,5 @@ gem 'github-pages', versions['github-pages']
 gem 'jekyll'
 gem 'kramdown'
 gem 'pygments.rb'
+gem 'thor'
+gem 'stringex'
