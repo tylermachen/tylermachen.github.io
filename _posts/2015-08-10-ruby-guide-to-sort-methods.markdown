@@ -11,6 +11,8 @@ feature-img:
 
 By default, Ruby's `.sort` method will sort any array of numbers or strings in ascending (low to high) order. When sorting numbers, this is self explanatory. When sorting strings, Ruby considers letters that come earlier in the alphabet to be less than letters that appear later.
 
+<!--more-->
+
 ### Numbers
 Given the following array of numbers:
 
