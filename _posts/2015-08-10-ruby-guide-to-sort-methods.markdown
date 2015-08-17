@@ -12,7 +12,11 @@ feature-img:
 By default, Ruby's `.sort` method will sort any array of numbers or strings in ascending (low to high) order. When sorting numbers, this is self explanatory. When sorting strings, Ruby considers letters that come earlier in the alphabet to be less than letters that appear later.
 
 ### Numbers
-Given the following array of numbers: `[1,5,9,2,4]`
+Given the following array of numbers:
+
+{% highlight ruby %}
+[1,5,9,2,4]
+{% endhighlight %}
 
 Ruby will sort as follows:
 
@@ -23,7 +27,11 @@ array.sort
 {% endhighlight %}
 
 ### Strings
-Given the following array of strings: `['dog', 'rabbit', 'aardvark', 'turtle', 'cat']`
+Given the following array of strings:
+
+{% highlight ruby %}
+['dog', 'rabbit', 'aardvark', 'turtle', 'cat']
+{% endhighlight %}
 
 Ruby will sort as follows:
 
@@ -60,10 +68,10 @@ end
 # => [1,2,4,5,9]
 {% endhighlight %}
 
-* The first iteration will send our first pair of array values `1` and `5` to our block as the values for our block variables `a` and `b` respectively. Now our `.sort` method is ready to compare our values...
+* The first iteration will send our first pair of array values `1` and `5` to our
+  block as the values for our block variables `a` and `b` respectively. Now our `.sort` method is ready to compare our values...
 
-  * If `a` and `b` are equal, the block will return `0`, and `.sort` will leave them in
-  their current places within our array.
+  * If `a` and `b` are equal, the block will return `0`, and `.sort` will leave them in their current places within our array.
 
   * If `a` is less than `b` and belongs before it, the block will return `-1` and `.sort`
   will, once again, leave them in their current locations in our array because `a` is already before `b`.
@@ -166,13 +174,23 @@ Sometimes, we may need to sort an array by something other than the defaults off
 ### Custom Alphabet
 
 #### Objective
-Sort an array of strings alphabetically based on the crazy alphabet below: `CRAZY_ALPHABET = "scftxmwrgbdeaklvqnzphyouji"`
+Sort an array of strings alphabetically based on the crazy alphabet below:
+
+{% highlight ruby %}
+CRAZY_ALPHABET = "scftxmwrgbdeaklvqnzphyouji"
+{% endhighlight %}
 
 #### Example
 The array below:
-`["this is crazy", "never again", "why", "afternoon", "start"]`
+{% highlight ruby %}
+["this is crazy", "never again", "why", "afternoon", "start"]
+{% endhighlight %}
+
 Should become:
-`["start", "this is crazy", "why", "afternoon", "never again"]`
+
+{% highlight ruby %}
+["start", "this is crazy", "why", "afternoon", "never again"]
+{% endhighlight %}
 
 #### Solution
 {% highlight ruby linenos %}
@@ -203,17 +221,22 @@ Now that we have an array of letters for our first word, our `.map` method is go
 
   * This process continues until we have the indices of where our current word's letters fall within our custom alphabet.
 
-    * `"this is crazy" == [3,20,25,0,25,0,1,7,12,18,21]`
-    * `"never again" == [17,11,15,11,7,12,8,12,25,17]`
-    * `"why" == [6,20,21]`
-    * `"afternoon" == [12,2,3,11,7,17,22,22,17]`
-    * `"start" == [0,3,12,7,3]`
+{% highlight ruby %}
+"this is crazy" == [3,20,25,0,25,0,1,7,12,18,21]
+"never again" == [17,11,15,11,7,12,8,12,25,17]
+"why" == [6,20,21]
+"afternoon" == [12,2,3,11,7,17,22,22,17]
+"start" == [0,3,12,7,3]
+{% endhighlight %}
 
 `.map` goes through each of our words and returns an array of indices upon which `.sort_by` can use to decide which word comes first according to our custom alphabet.
 
 ### Final Result
-A beautiful sorted array:
-`["start", "this is crazy", "why", "afternoon", "never again"]`
+A beautiful, sorted array:
+
+{% highlight ruby %}
+["start", "this is crazy", "why", "afternoon", "never again"]
+{% endhighlight %}
 
 <iframe src="//giphy.com/embed/2WxWfiavndgcM" width="480" height="271" frameBorder="0" style="max-width: 100%;" class="giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
