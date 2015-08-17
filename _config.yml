@@ -13,7 +13,8 @@ theme:
   # Header and footer text
   header_text: <h1>Tech Topics</h1>
   header_text_feature_image: img/ninjaheader.png
-  footer_text: &copy; Copyright 2015 Tyler Machen
+  footer_text: >
+   &copy; Copyright 2015 Tyler Machen
 
   # Icons
   rss: false
