@@ -2,7 +2,6 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/ninjaheader.png"
+feature-img:
+hide: true
 ---
-
-Tyler is a Rubyist living in NYC.

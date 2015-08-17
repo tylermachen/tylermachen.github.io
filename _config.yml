@@ -5,17 +5,15 @@ url: "tylermachen.github.io" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tech Topics
+  title: Tyler Machen
   avatar: avatar.png
   gravatar: # Email MD5 hash
   description: "Ruby | Tech Topics | Programming Tips" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <h1>Tech Topics</h1>
-  header_text_feature_image:
-  footer_text: >
-   &copy; Copyright 2015 Tyler Machen
+  header_text: <h1>Tech Topics</h1>
+  header_text_feature_image: img/ninjaheader.png
+  footer_text: &copy; Copyright 2015 Tyler Machen
 
   # Icons
   rss: false
@@ -54,10 +52,10 @@ theme:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic|Open+Sans"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic|Open+Sans:400,600,700|Open+Sans+Condensed:300,700"
 
   # Post navigation
-  post_navigation: false
+  post_navigation: true
 
 # PAGINATION
 paginate: 5

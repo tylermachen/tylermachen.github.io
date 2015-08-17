@@ -1,6 +1,6 @@
 // Header text feature
 .call-out {
-  padding: 1%; // @extend %padding-regular;
+  @extend %padding-regular;
   display: inline-block;
   width: 100%;
   background-color: $header-desc-background-color;
@@ -15,7 +15,7 @@
 // Post listing
 .posts {
   .post-teaser {
-    padding: 0 20% 10% 20%;// @extend %padding-regular;
+    @extend %padding-regular;
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
