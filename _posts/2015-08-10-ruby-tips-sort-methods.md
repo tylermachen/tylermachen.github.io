@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ruby Tips: Sort Methods"
+tags:
 feature-img:
 ---
 
