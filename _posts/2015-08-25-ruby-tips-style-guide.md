@@ -70,16 +70,6 @@ name = "Tyler"
 name = 'Tyler'
 {% endhighlight %}
 
-### Syntax
-Prefix with _ unused block parameters.
-{% highlight ruby %}
-# BAD
-result = hash.map { |v| v + 1 }
-
-# GOOD
-result = hash.map { |_ , v| v + 1 }
-{% endhighlight %}
-
 ### Class Organization
 When it comes to organizing your methods, constants, attr_accessors, and so on within a class, there is some debate as to whether class or instance methods should come first. Generally speaking, it doesn't matter too much but things should be organized in a logical manner and you should be consistent. I recommend following the <a href="https://github.com/bbatsov/ruby-style-guide">style guide</a> which uses the following order:
 
