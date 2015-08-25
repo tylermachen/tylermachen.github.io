@@ -42,7 +42,7 @@ Classes should be CamelCase, methods, variables, and constants (all caps) should
 {% highlight ruby %}
 SOME_CONSTANT = []
 
-def SomeClass
+class SomeClass
   # class content
 end
 
