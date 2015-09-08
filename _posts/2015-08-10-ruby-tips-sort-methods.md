@@ -239,7 +239,7 @@ A beautiful, sorted array:
 ["start", "this is crazy", "why", "afternoon", "never again"]
 {% endhighlight %}
 
-<iframe src="//giphy.com/embed/2WxWfiavndgcM" width="480" height="271" frameBorder="0" style="max-width: 100%;" class="giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="//giphy.com/embed/2WxWfiavndgcM" frameBorder="0" style="width:100%; height: 480px;" class="giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ---
 Resources:
