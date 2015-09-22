@@ -134,3 +134,5 @@ Just kidding...no fame and fortune here, but hopefully you found this post helpf
 * <a href="https://aws.amazon.com/">Amazon Web Services Homepage</a>
 
 * <a href="http://docs.aws.amazon.com/AWSECommerceService/latest/DG/ProgrammingGuide.html">Product Advertising API Docuementation</a>
+
+* <a href="https://aws.amazon.com/articles/1057">Amazon API Best Practices</a>
