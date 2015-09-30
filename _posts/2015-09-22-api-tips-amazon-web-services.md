@@ -16,7 +16,7 @@ Before starting this project I had only been guided through the use of APIs duri
 
 When starting to implement an API I have not worked with yet, I first decide what information I need, what format I need it in, and then I head to the source to see if I can make sense of things and decide if this particular API is a viable option for the task. In this case, I came across the Amazon Web Services (AWS) <a href="https://aws.amazon.com/documentation/">documentation</a>. This led me to another dead end due to information overload.
 
-<img src="https://dgosxlrnzhofi.cloudfront.net/custom_page_images/307/page_images/AWS-account.png?1424293283">
+<img src="/img/aws.png" alt="Amazon Web Services Screen Shot">
 
 Amazon Web Services is HUGE! They offer all kinds of cloud web services from analytics to content delivery and the list keeps getting longer. I started sifting through the AWS docs and was not finding any information related to my simple need for products and reviews.
 
